@@ -84,9 +84,9 @@ async def pub_(bot, message):
                 await m.edit_text(f'Error: {e}')
             else:
                 buttons = [[
-                    InlineKeyboardButton('📜 Support Group', url='https://t.me/DxHelpDesk')
+                    InlineKeyboardButton('🧞‍♂️ Group', url='https://t.me/cinemala_com')
                     ],[
-                    InlineKeyboardButton('📡 Update Channel', url='https://t.me/DX_Botz')
+                    InlineKeyboardButton('♻️ Channel', url='https://t.me/cinemala_com1')
                 ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 await m.edit_text(
