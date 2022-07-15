@@ -42,8 +42,8 @@ async def run(bot, message):
         await message.reply(Translation.CANCEL)
         return
     buttons = [[
-        InlineKeyboardButton('Yes', callback_data='start_public'),
-        InlineKeyboardButton('No', callback_data='close_btn')
+        InlineKeyboardButton('Yes ✅', callback_data='start_public'),
+        InlineKeyboardButton('No 🗑️', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_text(
